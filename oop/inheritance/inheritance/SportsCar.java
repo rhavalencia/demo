@@ -13,9 +13,9 @@ public class SportsCar extends Car{
         System.out.println("Turbo mode activated!");
     }
 
-    @Override
-    public void displayDetails(){
-        super.displayDetails();
-        System.out.println("Turbo Enabled: " + (turboEnabled ? "Yes":"No"));
-    }
+    // @Override //for polymorphism
+    // public void displayDetails(){
+    //     super.displayDetails();
+    //     System.out.println("Turbo Enabled: " + (turboEnabled ? "Yes":"No"));
+    // }
 }
