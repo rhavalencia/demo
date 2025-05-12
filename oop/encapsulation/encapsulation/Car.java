@@ -1,3 +1,4 @@
+package encapsulation;
 public class Car {
     private String brand;
     private String model;
@@ -9,6 +10,9 @@ public class Car {
         this.model = model;
         this.color = color;
         this.speed = speed;
+    }
+
+    public Car() {
     }
 
     public void displayDetails() {

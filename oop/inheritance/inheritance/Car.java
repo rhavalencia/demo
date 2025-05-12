@@ -1,18 +1,18 @@
+package inheritance;
 public class Car {
     private String brand;
     private String model;
     private String color;
     private int speed;
 
-    public Car(){
-        
-    }
-
     public Car(String brand, String model, String color, int speed) {
         this.brand = brand;
         this.model = model;
         this.color = color;
         this.speed = speed;
+    }
+
+    public Car() {
     }
 
     public void displayDetails() {
