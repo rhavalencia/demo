@@ -12,9 +12,12 @@ public class Main{
         // carObj.speed = 0;
 
         //For parameterized constructor
-        Car carObj = new Car("Toyota","Corolla","Red", 0);
-        carObj.displayDetails();
+        // Car carObj = new Car("Toyota","Corolla","Red", 0);
+        // carObj.displayDetails();
 
-        
+        SportsCar sportsCar = new SportsCar("Ferrari","488 GTB","Rosso Corsa",100);
+        //sportsCar.enableTurbo();
+        sportsCar.displayDetails();
+
     }
 }
